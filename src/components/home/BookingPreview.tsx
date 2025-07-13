@@ -5,7 +5,7 @@ import { CalendarIcon, ClockIcon, UsersIcon, CheckCircleIcon } from 'lucide-reac
 const BookingPreview = () => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [selectedSlot, setSelectedSlot] = useState<string | null>(null);
-  // Generate dates for the next 7 days
+  
   const dates = Array.from({
     length: 7
   }, (_, i) => {
@@ -13,7 +13,7 @@ const BookingPreview = () => {
     date.setDate(date.getDate() + i);
     return date;
   });
-  // Mock time slots
+  
   const timeSlots = [{
     id: '1',
     time: '06:00 - 07:00',
