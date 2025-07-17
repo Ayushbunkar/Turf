@@ -46,7 +46,7 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-      {/* Content placeholder */}
+      {/* Content placeholderafaf */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
